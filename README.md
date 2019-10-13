@@ -1,1 +1,1 @@
-Generates secure sha-256 hash and copies it to your clipboard.
+Generates a secure sha-256 hash and copies it to your clipboard.
