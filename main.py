@@ -137,16 +137,29 @@ def newPass():
             break
         elif keyName == "help":
             continue
-        fullName = cleanInput(input("Your Name\n: ").lower(), "name")
-        if fullName == "quit":
-            break
-        elif fullName == "help":
-            continue
-        email = cleanInput(input("Email\n: ").lower(), "email")
-        if email == "quit":
-            break
-        elif email == "help":
-            continue
+        try:
+            fullName = (base64.b64decode((np.load(savefile))[0])).decode()
+            print(lineSeparator())
+            print(stringSplitter("Name loaded from save file."))
+        except:
+            fullName = cleanInput(input("Your Name\n: ").lower(), "name")
+            print(fullName)
+            if fullName == "quit":
+                break
+            elif fullName == "help":
+                continue
+        try:
+            email = (base64.b64decode((np.load(savefile))[1])).decode()
+            print(lineSeparator())
+            print(stringSplitter("Email loaded from save file."))
+            print(lineSeparator())
+        except:
+            email = cleanInput(input("Email\n: ").lower(), "email")
+            print(email)
+            if email == "quit":
+                break
+            elif email == "help":
+                continue
         pass_string = getpass.getpass()
         checkPass_string = getpass.getpass('Confirm Password: ')
         if checkPass_string != pass_string:
