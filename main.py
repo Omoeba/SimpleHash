@@ -12,7 +12,7 @@ import pyperclip
 pass_string = None
 savelist = None
 
-savefile = os.path.join(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__))), 'savefile.npy')
+savefile = os.path.join(os.path.abspath(os.path.join(os.getcwd(), os.path.dirname(__file__))), 'savefile.npy')
 
 
 def clear():
