@@ -92,7 +92,6 @@ def hashPass():
             print(stringSplitter("Name loaded from save file."))
         except:
             fullName = cleanInput(input("Your Name\n: ").lower(), "name")
-            print(fullName)
             if fullName == "quit":
                 break
         try:
@@ -102,7 +101,6 @@ def hashPass():
             print(lineSeparator())
         except:
             email = cleanInput(input("Email\n: ").lower(), "email")
-            print(email)
             if email == "quit":
                 break
         pass_string = getpass.getpass()
@@ -143,7 +141,6 @@ def newPass():
             print(stringSplitter("Name loaded from save file."))
         except:
             fullName = cleanInput(input("Your Name\n: ").lower(), "name")
-            print(fullName)
             if fullName == "quit":
                 break
             elif fullName == "help":
@@ -155,7 +152,6 @@ def newPass():
             print(lineSeparator())
         except:
             email = cleanInput(input("Email\n: ").lower(), "email")
-            print(email)
             if email == "quit":
                 break
             elif email == "help":
