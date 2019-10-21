@@ -38,11 +38,11 @@ $ pip install numpy
  - Add a GUI
  
 ### Thanks to the following projects:
-- [Python] [python]
-- [Argon2-CFFI] [argon]
+- [Python]
+- [Argon2-CFFI]
 - [Pyperclip]
 - [Numpy]
-- [Dillinger] [dill]
+- [Dillinger]
 
 License
 ----
@@ -54,10 +54,10 @@ MIT
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
-   [dill]: <https://github.com/joemccann/dillinger>
+   [Dillinger]: <https://github.com/joemccann/dillinger>
    [Python]: <https://www.python.org>
    [pyperclip]: <https://github.com/asweigart/pyperclip>
    [numpy]: <https://numpy.org>
-   [argon]: <https://github.com/hynek/argon2-cffi>
+   [Argon2-CFFI]: <https://github.com/hynek/argon2-cffi>
 
  
