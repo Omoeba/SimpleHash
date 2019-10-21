@@ -16,7 +16,7 @@ SimpleHash is a simple way to generate a secure hashed password using an easy to
 ### Installation ###
 
 ***Windows***
-Just extract the *SimpleHash-CLI* folder to anywhere you want.
+- Just extract the *SimpleHash-CLI* folder to anywhere you want.
 
 ***Non Windows or Windows 32 bit***
 
