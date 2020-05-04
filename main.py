@@ -225,5 +225,5 @@ def main():
             print(lineSeparator())
             print(stringSplitter("Invalid option."))
 
-
-main()
+if __name__ == "__main__":
+    main()
