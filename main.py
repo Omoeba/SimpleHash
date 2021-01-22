@@ -181,7 +181,7 @@ def main():
     while True:
         print(lineSeparator())
         mode = cleanInput(str(input(stringSplitter(
-            "Type \"1\" to calculate and existing hash, \"2\" to create a new password hash, \"plaintext\" to get the "
+            "Type \"1\" to calculate an existing hash, \"2\" to create a new password hash, \"plaintext\" to get the "
             "previous inputted password in plaintext form, \"clear\" to clear the program window and previously "
             "cached passwords, \"refresh\" to re-display the prompt (useful if you change the size of the program "
             "window), \"delete\" to delete any saved name or email, and \"quit\" to exit.\n: "))).lower())
