@@ -89,7 +89,7 @@ def hashPass():
         try:
             fullName = (base64.b64decode((np.load(savefile))[0])).decode()
             print(lineSeparator())
-            print(stringSplitter("Name loaded from save file."))
+            print(stringSplitter("Name loaded."))
         except:
             fullName = cleanInput(input("Your Name\n: ").lower(), "name")
             if fullName == "quit":
@@ -97,7 +97,7 @@ def hashPass():
         try:
             email = (base64.b64decode((np.load(savefile))[1])).decode()
             print(lineSeparator())
-            print(stringSplitter("Email loaded from save file."))
+            print(stringSplitter("Email loaded."))
             print(lineSeparator())
         except:
             email = cleanInput(input("Email\n: ").lower(), "email")
