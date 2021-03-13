@@ -35,7 +35,7 @@ $ pip install numpy
 
 ### Todos
 
- - Add a GUI
+ - Refactor code
  
 ### Thanks to the following projects:
 - [Python]
